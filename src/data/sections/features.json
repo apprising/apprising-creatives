@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-tools",
+    "title": "Web Design and Development",
+    "content": "We create quality websites that convert, not like other companies where they only focus on design."
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-phone",
+    "title": "Mobile App Design and Development",
+    "content": "We create apps that are user-friendly and optimized for your goal, making sure it is worth every dime."
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-display1",
+    "title": "Systems and Technology",
+    "content": "We create systems that automate simple tasks, so you can focus on the important part of your business which is growing, we understand that scaling up is not easy."
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-lock",
+    "title": "Cybersecurity Analysis",
+    "content": "Secure your website and app with the latest cybersecurity methods and tools needed to navigate the digital world, we even provide training and evaluations."
+  }
+]
