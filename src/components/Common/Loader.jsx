@@ -1,12 +1,12 @@
-'use client';
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 import loadingPace from "@/common/loadingPace";
 
 function LoadingScreen() {
   useEffect(() => {
     setTimeout(() => {
-      if (typeof Pace !== 'undefined') loadingPace();
-    }, 1000);
+      if (typeof Pace !== "undefined") loadingPace();
+    }, 1);
   });
 
   return (
@@ -23,6 +23,6 @@ function LoadingScreen() {
       <div id="preloader"></div>
     </div>
   );
-};
+}
 
 export default LoadingScreen;
