@@ -10,11 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/css-node_modules_react-circular-progressbar_dist_styles_css-node_modules_swiper_swiper-bundle-6b1361.css",
       "static/chunks/app/layout.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

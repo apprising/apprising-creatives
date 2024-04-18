@@ -4,6 +4,7 @@ import "@/styles/preloader.css";
 import "@/styles/modal-video.css";
 import "swiper/css/bundle";
 import "react-circular-progressbar/dist/styles.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Apprising",
@@ -18,6 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <SpeedInsights />
       <body>{children}</body>
     </html>
   );
