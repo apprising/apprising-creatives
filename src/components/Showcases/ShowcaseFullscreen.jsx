@@ -1,9 +1,10 @@
-'use client';
-import React, { useEffect } from 'react';
-import Link from 'next/link';
+"use client";
+import Iframe from "react-iframe";
+import React, { useEffect } from "react";
+import Link from "next/link";
 //= Modules
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Parallax, Navigation, Mousewheel } from 'swiper';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Parallax, Navigation, Mousewheel } from "swiper";
 //= Scripts
 import removeSlashFromBagination from "@/common/removeSlashpagination";
 //= Static Data
@@ -28,8 +29,8 @@ const swiperOptions = {
         );
       }
     });
-  }
-}
+  },
+};
 
 function ShowcaseFullscreen() {
   useEffect(() => {
@@ -40,40 +41,42 @@ function ShowcaseFullscreen() {
     <header className="slider showcase-full">
       <div className="swiper-container parallax-slider">
         <Swiper {...swiperOptions} className="swiper-wrapper">
-          {
-            showcasse1Data.map(slide => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
-                <div className="bg-img valign" style={{ backgroundImage: `url(${slide.image})` }} data-overlay-dark="4">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-12">
-                        <div className="caption">
-                          <h1>
-                            <Link href="/project-details2/project-details2-dark">
-                              <div className="stroke" data-swiper-parallax="-2000">
-                                {slide.title.first}
-                              </div>
-                              <span data-swiper-parallax="-5000">
-                                {slide.title.second}
-                              </span>
-                            </Link>
-                            <div className="bord"></div>
-                          </h1>
-                          <div className="discover">
-                            <Link href="/project-details2/project-details2-dark">
-                              <span>
-                                Explore <br /> More
-                              </span>
-                            </Link>
+          {showcasse1Data.map((slide) => (
+            <SwiperSlide key={slide.id} className="swiper-slide">
+              <div
+                className="bg-img valign"
+                style={{ backgroundImage: `url(${slide.image})` }}
+                data-overlay-dark="4"
+              >
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="caption">
+                        <h1>
+                          <div className="stroke" data-swiper-parallax="-2000">
+                            {slide.title.first}
                           </div>
+                          <span data-swiper-parallax="-5000">
+                            {slide.title.second}
+                          </span>
+
+                          <div className="bord"></div>
+                        </h1>
+                        <div className="discover">
+                          <Link href={slide.webUrl}>
+                            <span>
+                              Check <br />
+                              Website
+                            </span>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
-            ))
-          }
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
         <div className="txt-botm">
           <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
@@ -97,7 +100,7 @@ function ShowcaseFullscreen() {
         </div>
       </div>
     </header>
-  )
+  );
 }
 
 export default ShowcaseFullscreen;
