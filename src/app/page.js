@@ -12,10 +12,10 @@ import MainContent from "@/components/Demos/MainContent";
 import Home2 from "./(dark)/homepage/home2-dark/page";
 
 export const metadata = {
-  title: "Vie - Preview",
+  title: "Apprising Creatives",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "../../public/img/favicon.ico",
+    shortcut: "../../public/img/favicon.ico",
     other: generateStylesheetObject([
       "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
       "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap",

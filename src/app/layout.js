@@ -5,21 +5,20 @@ import "@/styles/modal-video.css";
 import "swiper/css/bundle";
 import "react-circular-progressbar/dist/styles.css";
 
-
 export const metadata = {
-  title: 'Vie',
-  description: 'Vie - Multi-Purpose React.js Next.js Template',
-  keywords: ['HTML5', 'Template', 'Vie', 'Multi-Purpose', 'themeforest'],
+  title: "Apprising",
+  description: "Your ride to the digital world",
+  keywords: ["HTML5", "Template", "Vie", "Multi-Purpose", "themeforest"],
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico"
+    icon: "../../public/img/favicon.ico",
+    shortcut: "../../public/img/favicon.ico",
   },
-}
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
