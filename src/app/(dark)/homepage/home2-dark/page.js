@@ -17,7 +17,6 @@ export const metadata = {
 export default function Home2() {
   return (
     <>
-      <Loading />
       <Navbar />
       <Header />
       <Services />

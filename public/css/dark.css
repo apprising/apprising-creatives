@@ -136,7 +136,8 @@ p {
 
 a,
 span {
-  display: inline-block;
+  display: flex;
+  justify-content: end;
 }
 
 a:hover,
@@ -158,12 +159,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -174,12 +175,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
 }
 
 .line {
@@ -191,12 +192,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
 }
 
 .line.top {
@@ -1040,12 +1041,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
 }
 
 .pace.pace-inactive {
@@ -1602,12 +1603,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   padding: 7px 12px;
   border-radius: 10px;
 }
@@ -1676,7 +1677,7 @@ span:hover {
 }
 
 .butn.bord:hover {
-  background: #1679AB;
+  background: #1679ab;
   color: #fff;
 }
 
@@ -1696,7 +1697,7 @@ span:hover {
 }
 
 .butn.dark:hover {
-  background: #ffed00;
+  background: #1679ab;
   color: #fff;
 }
 
@@ -1706,12 +1707,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   border: transparent;
 }
 
@@ -2622,12 +2623,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   border-radius: 15px;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -2742,12 +2743,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   z-index: -2;
 }
 
@@ -2822,12 +2823,12 @@ span:hover {
     right top,
     left top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(right, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(right, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to left, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(right, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(right, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to left, #12c2e9, #1679ab, #16ff00);
   position: absolute;
   top: -5px;
   left: -5px;
@@ -4029,12 +4030,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   z-index: -2;
 }
 
@@ -4411,12 +4412,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   z-index: -1;
   opacity: 0.05;
 }
@@ -4541,12 +4542,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
@@ -4625,12 +4626,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   z-index: -2;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -5006,7 +5007,7 @@ span:hover {
   padding: 15px;
   background: rgba(255, 255, 255, 0.02);
   border-radius: 30px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .portfolio .filtering span {
@@ -5031,7 +5032,7 @@ span:hover {
   border-radius: 50%;
   position: absolute;
   right: -24px;
-  top: 40%;
+  top: 29%;
 }
 
 .portfolio .filtering span:last-of-type:after {
@@ -6179,12 +6180,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   -webkit-transition: all 1.5s;
   -o-transition: all 1.5s;
   transition: all 1.5s;
@@ -6283,12 +6284,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   opacity: 0;
   z-index: -1;
   -webkit-transition: all 0.7s;
@@ -6361,12 +6362,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   opacity: 0;
   z-index: -1;
   -webkit-transition: all 0.7s;
@@ -6806,12 +6807,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   z-index: -4;
 }
 
@@ -7226,12 +7227,12 @@ span:hover {
     left top,
     right top,
     from(#12c2e9),
-    color-stop(#ffed00),
+    color-stop(#1679ab),
     to(#16ff00)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: -o-linear-gradient(left, #12c2e9, #ffed00, #16ff00);
-  background: linear-gradient(to right, #12c2e9, #ffed00, #16ff00);
+  background: -webkit-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: -o-linear-gradient(left, #12c2e9, #1679ab, #16ff00);
+  background: linear-gradient(to right, #12c2e9, #1679ab, #16ff00);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
