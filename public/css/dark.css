@@ -136,8 +136,7 @@ p {
 
 a,
 span {
-  display: flex;
-  justify-content: end;
+  display: inline-block;
 }
 
 a:hover,
@@ -4658,6 +4657,8 @@ span:hover {
 
 .feat .items .more-stroke {
   margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .feat .items .more-stroke span {

@@ -10,26 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/css-node_modules_react-circular-progressbar_dist_styles_css-node_modules_swiper_swiper-bundle-6b1361.css",
       "static/chunks/app/layout.js"
-    ],
-    "/(dark)/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/about/page.js"
-    ],
-    "/(dark)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/layout.js"
-    ],
-    "/(dark)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/contact/page.js"
-    ],
-    "/(dark)/showcase/showcase-dark/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/showcase/showcase-dark/page.js"
     ]
   }
 }
