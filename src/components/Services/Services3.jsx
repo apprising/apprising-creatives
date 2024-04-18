@@ -32,7 +32,7 @@ function Services3() {
                 We create quality websites that convert, not like other
                 companies where they only focus on design.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/contact" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -44,7 +44,7 @@ function Services3() {
                 We create apps that are user-friendly and optimized for your
                 goal, making sure it is worth every dime.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/contact" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -57,7 +57,7 @@ function Services3() {
                 on the important part of your business which is growing, we
                 understand that scaling up is not easy.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/contact" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -70,7 +70,7 @@ function Services3() {
                 methods and tools needed to navigate the digital world, we even
                 provide training and evaluations.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/contact" className="more-stroke">
                 <span></span>
               </Link>
             </div>

@@ -29,10 +29,7 @@ function Header2() {
                 It is never easy navigating unknown places, but don't worry, we
                 will be your guide on your journey to the digital world.
               </p>
-              <Link
-                href={`/about/about-dark`}
-                className="butn bord curve mt-30"
-              >
+              <Link href={`/contact`} className="butn bord curve mt-30">
                 <span>Start your journey now!</span>
               </Link>
             </div>
