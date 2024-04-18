@@ -1773,7 +1773,7 @@ span:hover {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff;
   padding: 15px 7px;
@@ -4998,10 +4998,6 @@ span:hover {
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
   position: relative;
-}
-
-.portfolio .filtering {
-  padding-left: 50px;
 }
 
 .portfolio .filtering .filter {
