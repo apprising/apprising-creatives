@@ -44,9 +44,9 @@ function Portfolio({ grid, filterPosition }) {
                 {" "}
                 All{" "}
               </span>
-              <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              <span data-filter=".system">Dashboards</span>
+              <span data-filter=".web">Websites</span>
+              <span data-filter=".app">Mobile Apps</span>
             </div>
           </div>
 
@@ -58,22 +58,25 @@ function Portfolio({ grid, filterPosition }) {
                   : grid == 2
                   ? "col-md-6 lg-mr"
                   : "col-12"
-              } items graphic wow fadeInUp`}
+              } items system wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <Link
                   className="imago wow"
-                  href="/project-details2/project-details2-dark"
+                  href="https://apprising-dashboard.vercel.app/"
                 >
-                  <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
+                  <img
+                    src="/img/portfolio/portfolio/1/Demo-Dash.png"
+                    alt="image"
+                  />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Creativity Demand</h6>
+                <h6>Full Admin Dashboard</h6>
                 <span>
-                  <Link href="#0">Design</Link>,<Link href="#0">WordPress</Link>
+                  <Link href="#0">Design</Link>,<Link href="#0">NextJS</Link>
                 </span>
               </div>
             </div>
