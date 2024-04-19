@@ -6,7 +6,6 @@ import Header from "@/components/Headers/Header2";
 import Services from "@/components/Services/Services3";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials/TestimonialsWithVideo";
-import Team from "@/components/Team/Team2";
 import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
 
@@ -22,7 +21,6 @@ export default function Home2() {
       <Services />
       <Portfolio grid={3} filterPosition="center" />
       <Testimonials />
-      <Team />
       <CallToAction />
       <Footer />
     </>

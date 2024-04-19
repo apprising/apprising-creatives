@@ -2,27 +2,31 @@
   "teams": [
     {
       "id": 1,
-      "image": "/img/team/1.jpg",
-      "title": "Stephanie Lawrence",
-      "sub": "CEO, Colabrio Media"
+      "image": "/img/team/maiyo.jpg",
+      "name": "Maiyo Pabroquez",
+      "title": "Chief Executive Officer",
+      "text": "CEO CEO CEO CEO CEO CEO CEO"
     },
     {
       "id": 2,
-      "image": "/img/team/2.jpg",
-      "title": "Alex Regelman",
-      "sub": "CEO, Colabrio Media"
+      "image": "/img/team/ernest.jpg",
+      "name": "Ernest Siega",
+      "title": "Chief Technology Officer",
+      "text": "CTO CTO CTO CTO CTO CTO CTO"
     },
     {
       "id": 3,
       "image": "/img/team/3.jpg",
-      "title": "Stacey Stamper",
-      "sub": "CEO, Colabrio Media"
+      "name": "Aking Lim",
+      "title": "Chief Operations Officer",
+      "text": "COO COO COO COO COO COO COO"
     },
     {
       "id": 4,
-      "image": "/img/team/4.jpg",
-      "title": "Stephanie Lawrence",
-      "sub": "CEO, Colabrio Media"
+      "image": "/img/team/dennis.jpg",
+      "name": "Dennis Nuñez",
+      "title": "Developer",
+      "text": "DEV DEV DEV DEV DEV DEV DEV"
     }
   ],
   "skills": [

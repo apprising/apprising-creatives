@@ -5,7 +5,7 @@ import ShowcasesFullScreen from "@/components/Showcases/ShowcaseFullscreen";
 import Navbar from "@/components/Common/Navbar";
 
 export const metadata = {
-  title: "Vie - Showcase Dark",
+  title: "Apprising Projects",
 };
 
 export default function ShowcasePage() {
