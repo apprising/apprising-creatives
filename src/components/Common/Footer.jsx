@@ -1,4 +1,5 @@
 import React from "react";
+import projects from "../../data/showcase1.json";
 
 function Footer({ hideBGCOLOR }) {
   return (
@@ -25,7 +26,7 @@ function Footer({ hideBGCOLOR }) {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>info@apprisingcreatives.com</p>
+                    <p>apprising.creatives@gmail.com</p>
                   </div>
                 </li>
                 <li>
@@ -46,33 +47,14 @@ function Footer({ hideBGCOLOR }) {
               <ul>
                 <li>
                   <div className="img">
-                    <a href="#">
-                      <img src="/img/blog/1.jpg" alt="" />
+                    <a href="https://apprising-dashboard.vercel.app/">
+                      <img src="/img/portfolio/1/Demo-Dash.png" alt="" />
                     </a>
                   </div>
                   <div className="sm-post">
-                    <a href="#">
-                      <p>
-                        The Start-Up Ultimate Guide to Make Your WordPress
-                        Journal.
-                      </p>
-                      <span className="date">14 sep 2023</span>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <a href="#">
-                      <img src="/img/blog/2.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div className="sm-post">
-                    <a href="#">
-                      <p>
-                        The Start-Up Ultimate Guide to Make Your WordPress
-                        Journal.
-                      </p>
-                      <span className="date">14 sep 2023</span>
+                    <a href="">
+                      <p>Full Admin Dashboard</p>
+                      <span className="date">28 Jan 2024</span>
                     </a>
                   </div>
                 </li>
