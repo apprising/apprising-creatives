@@ -48,7 +48,10 @@ function Footer({ hideBGCOLOR }) {
                 <li>
                   <div className="img">
                     <a href="https://apprising-dashboard.vercel.app/">
-                      <img src="/img/portfolio/1/Demo-Dash.png" alt="" />
+                      <img
+                        src="/img/portfolio/portfolio/1/Demo-Dash.png"
+                        alt=""
+                      />
                     </a>
                   </div>
                   <div className="sm-post">
