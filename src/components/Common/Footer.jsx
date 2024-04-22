@@ -76,17 +76,11 @@ function Footer({ hideBGCOLOR }) {
                 <img src="/img/logowithtext.svg" alt="logo" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a href="https://www.facebook.com/apprisingcreatives">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a href="https://www.linkedin.com/company/apprising-creatives/?viewAsMember=true">
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
               <div className="copy-right">

@@ -12,7 +12,7 @@ import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
 
 export const metadata = {
-  title: "Vie - About Dark",
+  title: "Apprising Creatives",
 };
 
 function AboutDark() {

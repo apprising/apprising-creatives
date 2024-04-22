@@ -10,7 +10,13 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Apprising",
   description: "Your ride to the digital world",
-  keywords: ["HTML5", "Template", "Vie", "Multi-Purpose", "themeforest"],
+  keywords: [
+    "web design",
+    "mobile app",
+    "software",
+    "web developer",
+    "create website",
+  ],
   icons: {
     icon: "../../public/img/favicon.ico",
     shortcut: "../../public/img/favicon.ico",

@@ -10,7 +10,7 @@ import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
 
 export const metadata = {
-  title: "Vie - Creative Agency Dark",
+  title: "Apprising Creatives",
 };
 
 export default function Home2() {

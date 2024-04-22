@@ -8119,6 +8119,10 @@ footer .item .social a {
   margin-right: 10px;
 }
 
+footer .item .social {
+  padding-top: 1rem;
+}
+
 footer .item .copy-right {
   margin-top: 30px;
 }
